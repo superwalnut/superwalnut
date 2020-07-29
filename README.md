@@ -30,6 +30,9 @@ Skills
 ![image](https://img.icons8.com/color/48/000000/typescript.png)
 ![image](https://img.icons8.com/color/48/000000/bootstrap.png)
 ![image](https://img.icons8.com/color/48/000000/android-os.png)
+![image](https://img.icons8.com/color/48/000000/redis.png)
+![image](https://img.icons8.com/color/48/000000/elasticsearch.png)
+![image](https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png)
 
 
 **data stores

@@ -5,7 +5,7 @@ I am a senior software engineer who loves to work with the latest technologies, 
 
 
 -------------------     ----------------------------
- --:[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z61I9HB)
+ [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z61I9HB)
 
 I am sharing my experiences in these areas,
 ---------
@@ -17,3 +17,4 @@ I am sharing my experiences in these areas,
 Skills
 ----------
 ![image](https://img.icons8.com/color/48/000000/c-sharp-logo.png)
+![image](https://img.icons8.com/color/48/000000/angularjs.png)

@@ -18,3 +18,5 @@ Skills
 ----------
 ![image](https://img.icons8.com/color/48/000000/c-sharp-logo.png)
 ![image](https://img.icons8.com/color/48/000000/angularjs.png)
+![image](https://img.icons8.com/officel/50/000000/react.png)
+![image](https://img.icons8.com/color/48/000000/vue-js.png)

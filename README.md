@@ -29,16 +29,31 @@ Skills
 ![image](https://img.icons8.com/color/48/000000/javascript.png)
 ![image](https://img.icons8.com/color/48/000000/typescript.png)
 
+**data stores
+
+![image](https://img.icons8.com/color/48/000000/microsoft-sql-server.png)
+![image](https://img.icons8.com/color/48/000000/mongodb.png)
+![image](https://img.icons8.com/ios/50/000000/mysql-logo.png)
+
+
+**dev ops
+
+![image](https://img.icons8.com/color/48/000000/docker.png)
+![image](https://img.icons8.com/fluent/48/000000/github.png)
+![image](https://img.icons8.com/color/48/000000/gitlab.png)
+![image](https://img.icons8.com/color/48/000000/kubernetes.png)
+![image](https://img.icons8.com/color/48/000000/amazon-web-services.png)
+![image](https://img.icons8.com/color/48/000000/azure-1.png)
+![image](https://img.icons8.com/color/48/000000/google-cloud-platform.png)
 
 **tools
 
 ![image](https://img.icons8.com/color/48/000000/visual-studio.png)
 ![image](https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png)
 ![image](https://img.icons8.com/color/48/000000/git.png)
-![image](https://img.icons8.com/fluent/48/000000/github.png)
-![image](https://img.icons8.com/color/48/000000/gitlab.png)
 ![image](https://img.icons8.com/fluent/48/000000/chrome.png)
 ![image](https://img.icons8.com/color/48/000000/slack.png)
+
 
 
 

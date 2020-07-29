@@ -1,16 +1,116 @@
-### Hi there 👋
+---
+title: "Sales Report with Highcharter"
+author: "Joshua Kunst"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    social: menu
+    source_code: embed
+---
 
-<!--
-**superwalnut/superwalnut** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```{r setup, include=FALSE}
+library(highcharter)
+library(dplyr)
+library(viridisLite)
+library(forecast)
+library(treemap)
+library(flexdashboard)
 
-Here are some ideas to get you started:
+thm <- 
+  hc_theme(
+    colors = c("#1a6ecc", "#434348", "#90ed7d"),
+    chart = list(
+      backgroundColor = "transparent",
+      style = list(fontFamily = "Source Sans Pro")
+    ),
+    xAxis = list(
+      gridLineWidth = 1
+    )
+  )
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
+
+Column {data-width=600}
+-----------------------------------------------------------------------
+
+### Sales Forecast
+
+```{r}
+AirPassengers %>% 
+  forecast(level = 90) %>% 
+  hchart() %>% 
+  hc_add_theme(thm)
+```
+
+### Sales by State
+
+```{r}
+data("USArrests", package = "datasets")
+data("usgeojson")
+
+USArrests <- USArrests %>%
+  mutate(state = rownames(.))
+
+n <- 4
+colstops <- data.frame(
+  q = 0:n/n,
+  c = substring(viridis(n + 1), 0, 7)) %>%
+  list.parse2()
+
+highchart() %>%
+  hc_add_series_map(usgeojson, USArrests, name = "Sales",
+                    value = "Murder", joinBy = c("woename", "state"),
+                    dataLabels = list(enabled = TRUE,
+                                      format = '{point.properties.postalcode}')) %>%
+  hc_colorAxis(stops = colstops) %>%
+  hc_legend(valueDecimals = 0, valueSuffix = "%") %>%
+  hc_mapNavigation(enabled = TRUE) %>%
+  hc_add_theme(thm)
+```
+
+Column {.tabset data-width=400}
+-----------------------------------------------------------------------
+
+### Sales by Category
+
+```{r, fig.keep='none'}
+data("Groceries", package = "arules")
+dfitems <- tbl_df(Groceries@itemInfo)
+
+set.seed(10)
+
+dfitemsg <- dfitems %>%
+  mutate(category = gsub(" ", "-", level1),
+         subcategory = gsub(" ", "-", level2)) %>%
+  group_by(category, subcategory) %>% 
+  summarise(sales = n() ^ 3 ) %>% 
+  ungroup() %>% 
+  sample_n(31)
+
+tm <- treemap(dfitemsg, index = c("category", "subcategory"),
+              vSize = "sales", vColor = "sales",
+              type = "value", palette = rev(viridis(6)))
+
+highchart() %>% 
+  hc_add_series_treemap(tm, allowDrillToNode = TRUE,
+                        layoutAlgorithm = "squarified") %>% 
+  hc_add_theme(thm)
+```
+
+### Best Sellers
+
+```{r}
+set.seed(2)
+
+nprods <- 10
+
+dfitems %>% 
+  sample_n(nprods) %>% 
+  .$labels %>% 
+  rep(times = sort(sample( 1e4:2e4, size = nprods), decreasing = TRUE)) %>% 
+  factor(levels = unique(.)) %>% 
+  hchart(showInLegend = FALSE, name = "Sales", pointWidth = 10) %>% 
+  hc_add_theme(thm) %>% 
+  hc_chart(type = "bar")
+  
+```

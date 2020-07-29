@@ -5,9 +5,7 @@ I am a senior software engineer who loves to work with the latest technologies, 
 
 
 -------------------     ----------------------------
-Sydney,Australia                            [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z61I9HB)
-                          
--------------------     ----------------------------
+ --:[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z61I9HB)
 
 I am sharing my experiences in these areas,
 ---------

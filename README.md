@@ -16,9 +16,29 @@ I am sharing my experiences in these areas,
 
 Skills
 ----------
+
+**programming languages
+
 ![image](https://img.icons8.com/color/48/000000/c-sharp-logo.png)
 ![image](https://img.icons8.com/color/48/000000/angularjs.png)
 ![image](https://img.icons8.com/officel/50/000000/react.png)
 ![image](https://img.icons8.com/color/48/000000/vue-js.png)
 ![image](https://img.icons8.com/color/48/000000/golang.png)
+![image](https://img.icons8.com/color/48/000000/html-5.png)
+![image](https://img.icons8.com/color/48/000000/css3.png)
+![image](https://img.icons8.com/color/48/000000/javascript.png)
+![image](https://img.icons8.com/color/48/000000/typescript.png)
+
+
+**tools
+
+![image](https://img.icons8.com/color/48/000000/visual-studio.png)
+![image](https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png)
+![image](https://img.icons8.com/color/48/000000/git.png)
+![image](https://img.icons8.com/fluent/48/000000/github.png)
+![image](https://img.icons8.com/color/48/000000/gitlab.png)
+![image](https://img.icons8.com/fluent/48/000000/chrome.png)
+![image](https://img.icons8.com/color/48/000000/slack.png)
+
+
 

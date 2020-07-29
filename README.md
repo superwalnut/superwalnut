@@ -34,7 +34,7 @@ Skills
 ![image](https://img.icons8.com/color/48/000000/microsoft-sql-server.png)
 ![image](https://img.icons8.com/color/48/000000/mongodb.png)
 ![image](https://img.icons8.com/ios/50/000000/mysql-logo.png)
-![image](https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Database_copy_DynamoDB-512.png)
+![image](https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Database_copy_DynamoDB-48.png)
 
 **dev ops
 

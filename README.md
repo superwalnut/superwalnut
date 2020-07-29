@@ -28,6 +28,9 @@ Skills
 ![image](https://img.icons8.com/color/48/000000/css3.png)
 ![image](https://img.icons8.com/color/48/000000/javascript.png)
 ![image](https://img.icons8.com/color/48/000000/typescript.png)
+![image](https://img.icons8.com/color/48/000000/bootstrap.png)
+![image](https://img.icons8.com/color/48/000000/android-os.png)
+
 
 **data stores
 
@@ -53,6 +56,8 @@ Skills
 ![image](https://img.icons8.com/color/48/000000/git.png)
 ![image](https://img.icons8.com/fluent/48/000000/chrome.png)
 ![image](https://img.icons8.com/color/48/000000/slack.png)
+![image](https://img.icons8.com/color/48/000000/stackoverflow.png)
+![image](https://img.icons8.com/color/48/000000/npm.png)
 
 
 

@@ -1,116 +1,21 @@
----
-title: "Sales Report with Highcharter"
-author: "Joshua Kunst"
-output: 
-  flexdashboard::flex_dashboard:
-    orientation: columns
-    social: menu
-    source_code: embed
----
+Kevin Wang
+============
 
-```{r setup, include=FALSE}
-library(highcharter)
-library(dplyr)
-library(viridisLite)
-library(forecast)
-library(treemap)
-library(flexdashboard)
+I am a senior software engineer who loves to work with the latest technologies, I am using github as an amazing platform to improve my skills and share my experinces and projects that I have been doing. If you like or find any of my repositories useful, please fork it, star it and share with your fellow coders.
 
-thm <- 
-  hc_theme(
-    colors = c("#1a6ecc", "#434348", "#90ed7d"),
-    chart = list(
-      backgroundColor = "transparent",
-      style = list(fontFamily = "Source Sans Pro")
-    ),
-    xAxis = list(
-      gridLineWidth = 1
-    )
-  )
 
-```
+-------------------     ----------------------------
+Sydney,Australia                            [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z61I9HB)
+                          
+-------------------     ----------------------------
 
-Column {data-width=600}
------------------------------------------------------------------------
+I am sharing my experiences in these areas,
+---------
+* dotnet core apps
+* web apps, angular, react, vue
+* serverless apps, deploy as serverless applications to aws, google cloud, azure, etc.
+* golang
 
-### Sales Forecast
-
-```{r}
-AirPassengers %>% 
-  forecast(level = 90) %>% 
-  hchart() %>% 
-  hc_add_theme(thm)
-```
-
-### Sales by State
-
-```{r}
-data("USArrests", package = "datasets")
-data("usgeojson")
-
-USArrests <- USArrests %>%
-  mutate(state = rownames(.))
-
-n <- 4
-colstops <- data.frame(
-  q = 0:n/n,
-  c = substring(viridis(n + 1), 0, 7)) %>%
-  list.parse2()
-
-highchart() %>%
-  hc_add_series_map(usgeojson, USArrests, name = "Sales",
-                    value = "Murder", joinBy = c("woename", "state"),
-                    dataLabels = list(enabled = TRUE,
-                                      format = '{point.properties.postalcode}')) %>%
-  hc_colorAxis(stops = colstops) %>%
-  hc_legend(valueDecimals = 0, valueSuffix = "%") %>%
-  hc_mapNavigation(enabled = TRUE) %>%
-  hc_add_theme(thm)
-```
-
-Column {.tabset data-width=400}
------------------------------------------------------------------------
-
-### Sales by Category
-
-```{r, fig.keep='none'}
-data("Groceries", package = "arules")
-dfitems <- tbl_df(Groceries@itemInfo)
-
-set.seed(10)
-
-dfitemsg <- dfitems %>%
-  mutate(category = gsub(" ", "-", level1),
-         subcategory = gsub(" ", "-", level2)) %>%
-  group_by(category, subcategory) %>% 
-  summarise(sales = n() ^ 3 ) %>% 
-  ungroup() %>% 
-  sample_n(31)
-
-tm <- treemap(dfitemsg, index = c("category", "subcategory"),
-              vSize = "sales", vColor = "sales",
-              type = "value", palette = rev(viridis(6)))
-
-highchart() %>% 
-  hc_add_series_treemap(tm, allowDrillToNode = TRUE,
-                        layoutAlgorithm = "squarified") %>% 
-  hc_add_theme(thm)
-```
-
-### Best Sellers
-
-```{r}
-set.seed(2)
-
-nprods <- 10
-
-dfitems %>% 
-  sample_n(nprods) %>% 
-  .$labels %>% 
-  rep(times = sort(sample( 1e4:2e4, size = nprods), decreasing = TRUE)) %>% 
-  factor(levels = unique(.)) %>% 
-  hchart(showInLegend = FALSE, name = "Sales", pointWidth = 10) %>% 
-  hc_add_theme(thm) %>% 
-  hc_chart(type = "bar")
-  
-```
+Skills
+----------
+![image](https://img.icons8.com/color/48/000000/c-sharp-logo.png)

@@ -17,7 +17,7 @@ I am sharing my experiences in these areas,
 Skills
 ----------
 
-**programming languages
+##programming languages
 
 ![image](https://img.icons8.com/color/48/000000/c-sharp-logo.png)
 ![image](https://img.icons8.com/color/48/000000/angularjs.png)
@@ -35,14 +35,14 @@ Skills
 ![image](https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png)
 
 
-**data stores
+##data stores
 
 ![image](https://img.icons8.com/color/48/000000/microsoft-sql-server.png)
 ![image](https://img.icons8.com/color/48/000000/mongodb.png)
 ![image](https://img.icons8.com/ios/50/000000/mysql-logo.png)
 ![image](https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Database_copy_DynamoDB-48.png)
 
-**dev ops
+##dev ops
 
 ![image](https://img.icons8.com/color/48/000000/docker.png)
 ![image](https://img.icons8.com/fluent/48/000000/github.png)
@@ -52,7 +52,7 @@ Skills
 ![image](https://img.icons8.com/color/48/000000/azure-1.png)
 ![image](https://img.icons8.com/color/48/000000/google-cloud-platform.png)
 
-**tools
+##tools
 
 ![image](https://img.icons8.com/color/48/000000/visual-studio.png)
 ![image](https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png)

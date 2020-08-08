@@ -61,6 +61,7 @@ Skills
 ![image](https://img.icons8.com/color/48/000000/slack.png)
 ![image](https://img.icons8.com/color/48/000000/stackoverflow.png)
 ![image](https://img.icons8.com/color/48/000000/npm.png)
+![image](https://img.icons8.com/windows/48/000000/nuget.png)
 
 
 

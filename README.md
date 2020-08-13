@@ -64,7 +64,7 @@ Skills
 ![image](https://img.icons8.com/windows/48/000000/nuget.png)
 
 
-![Superwalnut's github stats](https://github-readme-stats.vercel.app/api?username=superwalnut&count_private=true&show_icons=true&hide_border=true)
+<img align="left" alt="Superwalnut's github stats" src="https://github-readme-stats.vercel.app/api?username=superwalnut&count_private=true&show_icons=true&hide_border=true" />
 
 
 

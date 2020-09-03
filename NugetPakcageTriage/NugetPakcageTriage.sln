@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriageProject1", "TriageProject1\TriageProject1.csproj", "{23DD43A6-DBEC-461E-82C6-B68ED2F7548E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriageProject2", "TriageProject2\TriageProject2.csproj", "{DE77BC92-AB8D-4769-B477-02F009CCD033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriageProject3", "TriageProject3\TriageProject3.csproj", "{C4F58F35-DE97-4499-B8AF-2A03EE028BB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23DD43A6-DBEC-461E-82C6-B68ED2F7548E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23DD43A6-DBEC-461E-82C6-B68ED2F7548E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23DD43A6-DBEC-461E-82C6-B68ED2F7548E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23DD43A6-DBEC-461E-82C6-B68ED2F7548E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE77BC92-AB8D-4769-B477-02F009CCD033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE77BC92-AB8D-4769-B477-02F009CCD033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE77BC92-AB8D-4769-B477-02F009CCD033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE77BC92-AB8D-4769-B477-02F009CCD033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F58F35-DE97-4499-B8AF-2A03EE028BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F58F35-DE97-4499-B8AF-2A03EE028BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F58F35-DE97-4499-B8AF-2A03EE028BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F58F35-DE97-4499-B8AF-2A03EE028BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
